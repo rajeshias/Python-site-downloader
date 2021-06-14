@@ -4,4 +4,4 @@
 
 To get started run main.py with website url as argument
 
-<i>main.py https://www.sampl-website.com</i>
+<i>>>main.py https://www.sampl-website.com</i>

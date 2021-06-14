@@ -1,21 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-pywebcopy.crawler
-~~~~~~~~~~~~~~~~~
-
-Crawls a specific url and saves any internal pages found.
-
-usage::
-    >>> from pywebcopy import config, Crawler
-    >>> url = 'https://google.com'
-    >>> project_folder = '/path/to/downloads/'
-    >>> project_name = 'google_clone'
-    >>> kwargs = {'bypass_robots': True}
-    >>> config.setup_config(url, project_folder, project_name, **kwargs)
-    >>> crawler = Crawler()
-    >>> crawler.run()
-
-"""
 import os
 import threading
 import warnings
